@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		AF775B751DCB7DB600D5B9D6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF775B741DCB7DB600D5B9D6 /* AppDelegate.swift */; };
-		AF775B771DCB7DB600D5B9D6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF775B761DCB7DB600D5B9D6 /* ViewController.swift */; };
+		AF775B771DCB7DB600D5B9D6 /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF775B761DCB7DB600D5B9D6 /* SignInVC.swift */; };
 		AF775B7A1DCB7DB600D5B9D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF775B781DCB7DB600D5B9D6 /* Main.storyboard */; };
 		AF775B7C1DCB7DB600D5B9D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF775B7B1DCB7DB600D5B9D6 /* Assets.xcassets */; };
 		AF775B7F1DCB7DB600D5B9D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF775B7D1DCB7DB600D5B9D6 /* LaunchScreen.storyboard */; };
 		AF775B8A1DCB7DB600D5B9D6 /* Jesters_HubTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF775B891DCB7DB600D5B9D6 /* Jesters_HubTests.swift */; };
 		AF775B951DCB7DB600D5B9D6 /* Jesters_HubUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF775B941DCB7DB600D5B9D6 /* Jesters_HubUITests.swift */; };
+		AF775BA31DCB7E8500D5B9D6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AF775BA21DCB7E8500D5B9D6 /* GoogleService-Info.plist */; };
+		BB03C0178DD9625C7E97508A /* Pods_Jesters_HubUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F4C5AC4AE7DFD3099C0F967 /* Pods_Jesters_HubUITests.framework */; };
+		D55D4E09A6ACC3C156F85599 /* Pods_Jesters_HubTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5496B76BEF37E6C7AB2C6EFF /* Pods_Jesters_HubTests.framework */; };
+		EF6F0D2C9257F3817EE14C25 /* Pods_Jesters_Hub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CA0C66C327280B2F187647B /* Pods_Jesters_Hub.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +38,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2CA0C66C327280B2F187647B /* Pods_Jesters_Hub.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Jesters_Hub.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5496B76BEF37E6C7AB2C6EFF /* Pods_Jesters_HubTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Jesters_HubTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BEC66F69BB6791DB3F2F707 /* Pods-Jesters-HubTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jesters-HubTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Jesters-HubTests/Pods-Jesters-HubTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8F4C5AC4AE7DFD3099C0F967 /* Pods_Jesters_HubUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Jesters_HubUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		943B903CD9A3C09DFD0585A8 /* Pods-Jesters-Hub.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jesters-Hub.release.xcconfig"; path = "Pods/Target Support Files/Pods-Jesters-Hub/Pods-Jesters-Hub.release.xcconfig"; sourceTree = "<group>"; };
+		9464D4BAED1FA2B20D268A5C /* Pods-Jesters-HubUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jesters-HubUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Jesters-HubUITests/Pods-Jesters-HubUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		98E308DD762B613448935899 /* Pods-Jesters-HubUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jesters-HubUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Jesters-HubUITests/Pods-Jesters-HubUITests.release.xcconfig"; sourceTree = "<group>"; };
 		AF775B711DCB7DB600D5B9D6 /* Jesters-Hub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Jesters-Hub.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF775B741DCB7DB600D5B9D6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AF775B761DCB7DB600D5B9D6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AF775B761DCB7DB600D5B9D6 /* SignInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
 		AF775B791DCB7DB600D5B9D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AF775B7B1DCB7DB600D5B9D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AF775B7E1DCB7DB600D5B9D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +58,9 @@
 		AF775B901DCB7DB600D5B9D6 /* Jesters-HubUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Jesters-HubUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF775B941DCB7DB600D5B9D6 /* Jesters_HubUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jesters_HubUITests.swift; sourceTree = "<group>"; };
 		AF775B961DCB7DB600D5B9D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF775BA21DCB7E8500D5B9D6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D4850AF1574BA9975C0DC024 /* Pods-Jesters-Hub.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jesters-Hub.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Jesters-Hub/Pods-Jesters-Hub.debug.xcconfig"; sourceTree = "<group>"; };
+		DCCFDCAE993FB441F05B1140 /* Pods-Jesters-HubTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jesters-HubTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Jesters-HubTests/Pods-Jesters-HubTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF6F0D2C9257F3817EE14C25 /* Pods_Jesters_Hub.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D55D4E09A6ACC3C156F85599 /* Pods_Jesters_HubTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +84,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB03C0178DD9625C7E97508A /* Pods_Jesters_HubUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1DA6F5428FE14FED54052FB5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2CA0C66C327280B2F187647B /* Pods_Jesters_Hub.framework */,
+				5496B76BEF37E6C7AB2C6EFF /* Pods_Jesters_HubTests.framework */,
+				8F4C5AC4AE7DFD3099C0F967 /* Pods_Jesters_HubUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		AF775B681DCB7DB600D5B9D6 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +108,8 @@
 				AF775B881DCB7DB600D5B9D6 /* Jesters-HubTests */,
 				AF775B931DCB7DB600D5B9D6 /* Jesters-HubUITests */,
 				AF775B721DCB7DB600D5B9D6 /* Products */,
+				DFBF8EB4212BCEEA3C424AA9 /* Pods */,
+				1DA6F5428FE14FED54052FB5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,11 +126,14 @@
 		AF775B731DCB7DB600D5B9D6 /* Jesters-Hub */ = {
 			isa = PBXGroup;
 			children = (
+				AF775BA41DCB823F00D5B9D6 /* Model */,
+				AF775BA61DCB824C00D5B9D6 /* Controller */,
+				AF775BA51DCB824500D5B9D6 /* View */,
 				AF775B741DCB7DB600D5B9D6 /* AppDelegate.swift */,
-				AF775B761DCB7DB600D5B9D6 /* ViewController.swift */,
 				AF775B781DCB7DB600D5B9D6 /* Main.storyboard */,
 				AF775B7B1DCB7DB600D5B9D6 /* Assets.xcassets */,
 				AF775B7D1DCB7DB600D5B9D6 /* LaunchScreen.storyboard */,
+				AF775BA21DCB7E8500D5B9D6 /* GoogleService-Info.plist */,
 				AF775B801DCB7DB600D5B9D6 /* Info.plist */,
 			);
 			path = "Jesters-Hub";
@@ -125,6 +157,41 @@
 			path = "Jesters-HubUITests";
 			sourceTree = "<group>";
 		};
+		AF775BA41DCB823F00D5B9D6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		AF775BA51DCB824500D5B9D6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		AF775BA61DCB824C00D5B9D6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AF775B761DCB7DB600D5B9D6 /* SignInVC.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		DFBF8EB4212BCEEA3C424AA9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D4850AF1574BA9975C0DC024 /* Pods-Jesters-Hub.debug.xcconfig */,
+				943B903CD9A3C09DFD0585A8 /* Pods-Jesters-Hub.release.xcconfig */,
+				7BEC66F69BB6791DB3F2F707 /* Pods-Jesters-HubTests.debug.xcconfig */,
+				DCCFDCAE993FB441F05B1140 /* Pods-Jesters-HubTests.release.xcconfig */,
+				9464D4BAED1FA2B20D268A5C /* Pods-Jesters-HubUITests.debug.xcconfig */,
+				98E308DD762B613448935899 /* Pods-Jesters-HubUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +199,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AF775B991DCB7DB600D5B9D6 /* Build configuration list for PBXNativeTarget "Jesters-Hub" */;
 			buildPhases = (
+				F7C4BCA4ADAA29463643BBAD /* [CP] Check Pods Manifest.lock */,
 				AF775B6D1DCB7DB600D5B9D6 /* Sources */,
 				AF775B6E1DCB7DB600D5B9D6 /* Frameworks */,
 				AF775B6F1DCB7DB600D5B9D6 /* Resources */,
+				19F642BEB80A16809E5D0310 /* [CP] Embed Pods Frameworks */,
+				4125B072EE2AF78A58D9A669 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +219,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AF775B9C1DCB7DB600D5B9D6 /* Build configuration list for PBXNativeTarget "Jesters-HubTests" */;
 			buildPhases = (
+				4109B74D47DD1653AC824F2E /* [CP] Check Pods Manifest.lock */,
 				AF775B811DCB7DB600D5B9D6 /* Sources */,
 				AF775B821DCB7DB600D5B9D6 /* Frameworks */,
 				AF775B831DCB7DB600D5B9D6 /* Resources */,
+				9D639ADC04F56528E18FFB76 /* [CP] Embed Pods Frameworks */,
+				519528249E9EA7C71BE8E8F0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +240,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AF775B9F1DCB7DB600D5B9D6 /* Build configuration list for PBXNativeTarget "Jesters-HubUITests" */;
 			buildPhases = (
+				DFD65CB1F8F80CB3D5F2140B /* [CP] Check Pods Manifest.lock */,
 				AF775B8C1DCB7DB600D5B9D6 /* Sources */,
 				AF775B8D1DCB7DB600D5B9D6 /* Frameworks */,
 				AF775B8E1DCB7DB600D5B9D6 /* Resources */,
+				562FFA7B18DBF6310D1B5CA1 /* [CP] Embed Pods Frameworks */,
+				FAEA51350FCECC280AFFF955 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -236,6 +312,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AF775B7F1DCB7DB600D5B9D6 /* LaunchScreen.storyboard in Resources */,
+				AF775BA31DCB7E8500D5B9D6 /* GoogleService-Info.plist in Resources */,
 				AF775B7C1DCB7DB600D5B9D6 /* Assets.xcassets in Resources */,
 				AF775B7A1DCB7DB600D5B9D6 /* Main.storyboard in Resources */,
 			);
@@ -257,12 +334,150 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		19F642BEB80A16809E5D0310 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Jesters-Hub/Pods-Jesters-Hub-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4109B74D47DD1653AC824F2E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4125B072EE2AF78A58D9A669 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Jesters-Hub/Pods-Jesters-Hub-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		519528249E9EA7C71BE8E8F0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Jesters-HubTests/Pods-Jesters-HubTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		562FFA7B18DBF6310D1B5CA1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Jesters-HubUITests/Pods-Jesters-HubUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9D639ADC04F56528E18FFB76 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Jesters-HubTests/Pods-Jesters-HubTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DFD65CB1F8F80CB3D5F2140B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F7C4BCA4ADAA29463643BBAD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FAEA51350FCECC280AFFF955 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Jesters-HubUITests/Pods-Jesters-HubUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AF775B6D1DCB7DB600D5B9D6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AF775B771DCB7DB600D5B9D6 /* ViewController.swift in Sources */,
+				AF775B771DCB7DB600D5B9D6 /* SignInVC.swift in Sources */,
 				AF775B751DCB7DB600D5B9D6 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -336,6 +551,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -386,6 +602,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -413,6 +630,7 @@
 		};
 		AF775B9A1DCB7DB600D5B9D6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4850AF1574BA9975C0DC024 /* Pods-Jesters-Hub.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = R7P88YM2GX;
@@ -426,6 +644,7 @@
 		};
 		AF775B9B1DCB7DB600D5B9D6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 943B903CD9A3C09DFD0585A8 /* Pods-Jesters-Hub.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = R7P88YM2GX;
@@ -439,6 +658,7 @@
 		};
 		AF775B9D1DCB7DB600D5B9D6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7BEC66F69BB6791DB3F2F707 /* Pods-Jesters-HubTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -454,6 +674,7 @@
 		};
 		AF775B9E1DCB7DB600D5B9D6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCCFDCAE993FB441F05B1140 /* Pods-Jesters-HubTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -469,6 +690,7 @@
 		};
 		AF775BA01DCB7DB600D5B9D6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9464D4BAED1FA2B20D268A5C /* Pods-Jesters-HubUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = R7P88YM2GX;
@@ -483,6 +705,7 @@
 		};
 		AF775BA11DCB7DB600D5B9D6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98E308DD762B613448935899 /* Pods-Jesters-HubUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = R7P88YM2GX;
@@ -514,6 +737,7 @@
 				AF775B9B1DCB7DB600D5B9D6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AF775B9C1DCB7DB600D5B9D6 /* Build configuration list for PBXNativeTarget "Jesters-HubTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +746,7 @@
 				AF775B9E1DCB7DB600D5B9D6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AF775B9F1DCB7DB600D5B9D6 /* Build configuration list for PBXNativeTarget "Jesters-HubUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +755,7 @@
 				AF775BA11DCB7DB600D5B9D6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

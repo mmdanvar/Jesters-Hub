@@ -1,0 +1,6 @@
+framework module Pods_Jesters_HubUITests {
+  umbrella header "Pods-Jesters-HubUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
